@@ -759,7 +759,7 @@ body {
     position: relative;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: transparent;
+    background-color:black;
     border: none
 }
 
@@ -769,16 +769,16 @@ body {
     left: 0px;
     right: 0px;
     height: 100%;
-    background-color: #d9a7c7;
+    background-color:black;
     z-index: -1;
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
 }
 
 .intro--banner button:hover .btn-background {
-    left: -1000px;
-    right: -1400px;
-    background-color: #ec7777;
+    /* left: -1000px;
+    right: -1400px; */
+    background-color: black;
 }
 
 .intro--banner button:focus {
@@ -789,7 +789,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #fff
+    fill: #fff;
 }
 
 .intro--banner img {
