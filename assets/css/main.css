@@ -579,7 +579,7 @@ body {
     color: #839496;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ec7777;
+    background-color: #fdf6e3;
     border: none;
     opacity: 0;
     visibility: hidden;
@@ -676,7 +676,7 @@ body {
 }
 
 .side-nav li.is-active {
-    color: #ec7777;
+    color: #fdf6e3;
     font-size: 20px;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out
@@ -733,7 +733,7 @@ body {
     left: -15px;
     right: 0;
     height: 2px;
-    background-color: #282828
+    background-color: #fdf6e3
 }
 
 .intro--banner::after {
@@ -743,7 +743,7 @@ body {
     left: 0;
     width: 30px;
     height: 4px;
-    background-color: #ec7777
+    background-color: #fdf6e3
 }
 
 .intro--banner h1 {
@@ -815,7 +815,7 @@ body {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #282828;
+    color: #fdf6e3;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
@@ -1052,7 +1052,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #282828;
+    background-color: #fdf6e3;
     border-radius: 50%;
     cursor: pointer
 }
@@ -1204,7 +1204,7 @@ body {
     height: 75px;
     text-decoration: none;
     color: #839496;
-    border: 10px solid #ec7777;
+    border: 10px solid #fdf6e3;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -1383,7 +1383,7 @@ body {
 
 .contact--lockup .modal--options li:nth-child(3) {
     margin-bottom: 0;
-    background-color: #ec7777;
+    background-color: #fdf6e3;
     text-transform: uppercase
 }
 
@@ -1454,7 +1454,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #ec7777;
+    background-color: #fdf6e3;
     border: none;
     border-radius: 0
 }
@@ -1535,8 +1535,8 @@ body {
 }
 
 .work-request--options input[type="checkbox"]:checked+label {
-    background-color: #ec7777;
-    border-color: #ec7777
+    background-color: #fdf6e3;
+    border-color: #fdf6e3
 }
 
 .work-request--options input[type="checkbox"]:checked+label svg {
@@ -1666,7 +1666,7 @@ body {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-    outline: 30px solid #ec7777;
+    outline: 30px solid #fdf6e3;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
     transition: transform .4s;
@@ -1694,7 +1694,7 @@ body {
 .effect-rotate-left--animate .container {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-    outline: 30px solid #ec7777
+    outline: 30px solid #fdf6e3
 }
 
 .outer-nav {
@@ -1768,7 +1768,7 @@ body {
     width: 110%;
     height: 15px;
     opacity: 0;
-    background-color: #ec7777
+    background-color: #fdf6e3
 }
 
 .outer-nav>li.is-active::before {
