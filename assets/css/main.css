@@ -50,6 +50,37 @@ body {
     margin: 0
 }
 
+.icon {
+    fill: #f1f1f1;
+    width: 24px;
+    height: 24px;
+    -webkit-transition: fill .2s;
+    transition: fill .2s;
+  }
+  .icon--floating {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    -webkit-animation-name: rise;
+            animation-name: rise;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  
+  .link {
+    display: inline-block;
+    margin: .5rem .4rem;
+    position: relative;
+    z-index: 2;
+  }
+  .link--twitter .icon, .link--twitter:hover ~ .icon--twitter {
+    fill: #55acee;
+  }
+  .link--github .icon, .link--github:hover ~ .icon--github {
+    fill: #333;
+  }
+
 article,
 aside,
 details,
@@ -751,7 +782,8 @@ body {
     font-size: 90px;
     font-weight: 900;
     line-height: 1;
-    z-index: 1
+    z-index: 1;
+    color: #dd322f
 }
 
 .intro--banner button {
@@ -816,13 +848,13 @@ body {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #fdf6e3;
+    color: #dd322f;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
 
 .intro--options>a:hover {
-    color: #839496
+    color: #fdf6e3
 }
 
 .intro--options h3 {
@@ -937,7 +969,8 @@ body {
 .work h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
-    text-align: center
+    text-align: center;
+    color: #dd322f
 }
 
 .work--lockup {
@@ -1153,13 +1186,14 @@ body {
     font-size: 68px;
     font-weight: 900;
     line-height: 1;
-    z-index: 1
+    z-index: 1;
+    color: #dd322f
 }
 
 .about--banner a {
     padding: 5px 17px 5px 0;
     text-decoration: none;
-    color: #839496;
+    color: #dd322f;
     font-weight: 700;
     text-transform: uppercase;
     background-color: transparent
@@ -1173,7 +1207,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #839496;
+    fill: #dd322f;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
 }
@@ -1427,7 +1461,8 @@ body {
 .hire h2 {
     margin: 0 0 20px 0;
     font-size: 30px;
-    text-align: center
+    text-align: center;
+    color: #dd322f
 }
 
 .work-request {
