@@ -258,15 +258,15 @@ th {
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: #839496498
 }
 
 ::selection {
-    background: #FFF498
+    background: #839496498
 }
 
 ::-moz-selection {
-    background: #FFF498
+    background: #839496498
 }
 
 img::-moz-selection {
@@ -282,15 +282,15 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #FFF498
+    -webkit-tap-highlight-color: #839496498
 }
 
 body {
-    background-color: #000000;
+    background-color: #002b36;
     font-size: 14px;
     line-height: 1.6;
     font-family: "Regular", "Montserrat", sans-serif;
-    color: #fff;
+    color: #839496;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
 }
@@ -396,7 +396,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
-    color: #fff
+    color: #839496
 }
 
 .device-notification--logo p {
@@ -513,7 +513,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
-    color: #fff;
+    color: #839496;
     margin-top: 20px;
 }
 
@@ -554,7 +554,7 @@ body {
     position: relative;
     width: 16px;
     height: 2px;
-    background-color: #fff
+    background-color: #839496
 }
 
 .header--nav-toggle::before {
@@ -576,7 +576,7 @@ body {
     padding: 0 20px;
     line-height: 30px;
     text-decoration: none;
-    color: #fff;
+    color: #839496;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #ec7777;
@@ -630,7 +630,7 @@ body {
 .side-nav>li {
     position: relative;
     top: -5px;
-    color: #fff;
+    color: #839496;
     font-size: 6px;
     cursor: pointer
 }
@@ -639,7 +639,7 @@ body {
     position: relative;
     top: 3px;
     left: 10px;
-    color: #fff;
+    color: #839496;
     font-size: 16px;
     font-weight: 300;
     opacity: 0;
@@ -691,7 +691,7 @@ body {
 
 .side-nav li.is-active::before {
     left: -33px;
-    color: #fff
+    color: #839496
 }
 
 .intro {
@@ -789,7 +789,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #fff;
+    fill: #839496;
 }
 
 .intro--banner img {
@@ -821,7 +821,7 @@ body {
 }
 
 .intro--options>a:hover {
-    color: #fff
+    color: #839496
 }
 
 .intro--options h3 {
@@ -1017,7 +1017,7 @@ body {
 }
 
 .work--lockup .slider--item-center a {
-    color: #fff
+    color: #839496
 }
 
 .work--lockup .slider--item-center .slider--item-title {
@@ -1060,7 +1060,7 @@ body {
 .work--lockup .slider--next svg,
 .work--lockup .slider--prev svg {
     width: 20px;
-    fill: #fff
+    fill: #839496
 }
 
 .work--lockup .slider--next {
@@ -1158,7 +1158,7 @@ body {
 .about--banner a {
     padding: 5px 17px 5px 0;
     text-decoration: none;
-    color: #fff;
+    color: #839496;
     font-weight: 700;
     text-transform: uppercase;
     background-color: transparent
@@ -1172,7 +1172,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #fff;
+    fill: #839496;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
 }
@@ -1203,7 +1203,7 @@ body {
     width: 150px;
     height: 75px;
     text-decoration: none;
-    color: #fff;
+    color: #839496;
     border: 10px solid #ec7777;
     background-position: center;
     background-size: cover;
@@ -1354,7 +1354,7 @@ body {
     display: block;
     margin: 14px 0;
     text-decoration: none;
-    color: #fff;
+    color: #839496;
     font-weight: 700
 }
 
@@ -1392,7 +1392,7 @@ body {
     width: 100%;
     padding: 8px 0;
     text-decoration: none;
-    color: #fff;
+    color: #839496;
     font-weight: 700
 }
 
@@ -1444,7 +1444,7 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #fff
+    color: #839496
 }
 
 .work-request input[type="submit"] {
@@ -1515,7 +1515,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid #839496;
     cursor: pointer;
     -webkit-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
     transition: background-color .2s ease-in-out, border-color .2s ease-in-out
@@ -1525,7 +1525,7 @@ body {
     position: relative;
     left: -5px;
     width: 0;
-    fill: #fff;
+    fill: #839496;
     -webkit-transition: width .2s ease-in-out;
     transition: width .2s ease-in-out
 }
@@ -1571,7 +1571,7 @@ body {
     padding: 0 0 5px 0;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #839496;
     border-radius: 0
 }
 
@@ -1959,7 +1959,7 @@ img.blur:hover {
 }
 
 .share-btn.share-btn-branded {
-    color: #fff;
+    color: #839496;
 }
 
 .share-btn.share-btn-branded.share-btn-twitter {
@@ -1996,7 +1996,7 @@ img.blur:hover {
 
 .share-btn.share-btn-branded.share-btn-googleplus {
     background: #db6353;
-    color: #fff;
+    color: #839496;
     border-color: #d73925;
 }
 
@@ -2013,7 +2013,7 @@ img.blur:hover {
 
 .share-btn.share-btn-branded.share-btn-email {
     background: #db63531a;
-    color: #fff;
+    color: #839496;
     border-color: #d73925;
 }
 
@@ -2030,7 +2030,7 @@ img.blur:hover {
 
 .share-btn.share-btn-branded.share-btn-tumblr {
     background: #3f4957;
-    color: #fff;
+    color: #839496;
     border-color: #3f4957;
 }
 
@@ -2047,7 +2047,7 @@ img.blur:hover {
 
 .share-btn.share-btn-branded.share-btn-reddit {
     background: #f88257;
-    color: #fff;
+    color: #839496;
     border-color: #f88257;
 }
 
@@ -2064,7 +2064,7 @@ img.blur:hover {
 
 .share-btn.share-btn-branded.share-btn-linkedin {
     background: #4589b11a;
-    color: #fff;
+    color: #839496;
     border-color: #4589b1;
 }
 
@@ -2081,7 +2081,7 @@ img.blur:hover {
 
 .share-btn.share-btn-branded.share-btn-delicious {
     background: #3399ff;
-    color: #fff;
+    color: #839496;
     border-color: #198cff;
 }
 
@@ -2098,7 +2098,7 @@ img.blur:hover {
 
 .share-btn.share-btn-branded.share-btn-stumbleupon {
     background: #e76d52;
-    color: #fff;
+    color: #839496;
     border-color: #e13b15;
 }
 
@@ -2115,7 +2115,7 @@ img.blur:hover {
 
 .share-btn.share-btn-branded.share-btn-pinterest {
     background: #ca5559;
-    color: #fff;
+    color: #839496;
     border-color: #ca5559;
 }
 
@@ -2184,7 +2184,7 @@ ul.customupdates>li:last-child {
 
 ul.customupdates>li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #839496;
     font: inherit;
     -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
     -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
