@@ -723,7 +723,7 @@ body {
 
 .intro--banner {
     position: relative;
-    height: 475px
+    height: 425px
 }
 
 .intro--banner::before {
@@ -879,7 +879,7 @@ body {
 
 @media (max-width: 600px) {
     .intro--banner {
-        height: 360px
+        height: 300px;
     }
     .intro--banner h1 {
         padding-top: 30px;
