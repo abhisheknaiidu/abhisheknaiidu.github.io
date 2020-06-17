@@ -1747,7 +1747,8 @@ body {
     text-align: center;
     visibility: hidden;
     -webkit-transition: visibility 0s .2s;
-    transition: visibility 0s .2s
+    transition: visibility 0s .2s;
+    color: #dd322f
 }
 
 .outer-nav.is-vis {
