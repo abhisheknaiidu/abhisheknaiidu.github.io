@@ -755,12 +755,13 @@ body {
 }
 
 .intro--banner button {
-    padding: 20px;
+    padding: 6px;
     position: relative;
     font-weight: 700;
     text-transform: uppercase;
-    background-color:black;
-    border: none
+    background-color:#b58900;
+    border: none;
+    width: 120px;
 }
 
 .intro--banner button .btn-background {
@@ -769,7 +770,7 @@ body {
     left: 0px;
     right: 0px;
     height: 100%;
-    background-color:black;
+    background-color:#b58900;
     z-index: -1;
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
@@ -778,7 +779,7 @@ body {
 .intro--banner button:hover .btn-background {
     /* left: -1000px;
     right: -1400px; */
-    background-color: black;
+    background-color: #b58900;
 }
 
 .intro--banner button:focus {
@@ -882,7 +883,7 @@ body {
     }
     .intro--banner h1 {
         padding-top: 30px;
-        font-size: 55px
+        font-size: 45px
     }
     .intro--banner img {
         display: none
