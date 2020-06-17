@@ -1964,19 +1964,8 @@ img.blur:hover {
 }
 
 .share-btn.share-btn-branded.share-btn-twitter {
-    background: #90bada1a;
+    background: #00acee;
     border-color: #90bada;
-}
-
-.share-btn.share-btn-branded.share-btn-twitter:hover,
-.share-btn.share-btn-branded.share-btn-twitter:focus {
-    background: #3ea1ec;
-    border-color: #2795e9;
-}
-
-.share-btn.share-btn-branded.share-btn-twitter:active {
-    background: #2795e9;
-    border-color: #1689e0;
 }
 
 .share-btn.share-btn-branded.share-btn-facebook {
@@ -2018,17 +2007,6 @@ img.blur:hover {
     border-color: #d73925;
 }
 
-.share-btn.share-btn-branded.share-btn-email:hover,
-.share-btn.share-btn-branded.share-btn-email:focus {
-    background: #d73925;
-    border-color: #c23321;
-}
-
-.share-btn.share-btn-branded.share-btn-email:active {
-    background: #c23321;
-    border-color: #ac2d1e;
-}
-
 .share-btn.share-btn-branded.share-btn-tumblr {
     background: #3f4957;
     color: #839496;
@@ -2047,37 +2025,16 @@ img.blur:hover {
 }
 
 .share-btn.share-btn-branded.share-btn-reddit {
-    background: #f88257;
+    background: #cc3700;
     color: #839496;
     border-color: #f88257;
 }
 
-.share-btn.share-btn-branded.share-btn-reddit:hover,
-.share-btn.share-btn-branded.share-btn-reddit:focus {
-    background: #e63e00;
-    border-color: #cc3700;
-}
-
-.share-btn.share-btn-branded.share-btn-reddit:active {
-    background: #cc3700;
-    border-color: #b33000;
-}
 
 .share-btn.share-btn-branded.share-btn-linkedin {
-    background: #4589b11a;
+    background: #075683;
     color: #839496;
     border-color: #4589b1;
-}
-
-.share-btn.share-btn-branded.share-btn-linkedin:hover,
-.share-btn.share-btn-branded.share-btn-linkedin:focus {
-    background: #08669c;
-    border-color: #075683;
-}
-
-.share-btn.share-btn-branded.share-btn-linkedin:active {
-    background: #075683;
-    border-color: #05466b;
 }
 
 .share-btn.share-btn-branded.share-btn-delicious {
