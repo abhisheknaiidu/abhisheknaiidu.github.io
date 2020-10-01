@@ -67,7 +67,7 @@ body {
     -webkit-animation-timing-function: linear;
             animation-timing-function: linear;
   }
-  
+
   .link {
     display: inline-block;
     margin: .5rem .4rem;
@@ -575,7 +575,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .header--nav-toggle span,
@@ -585,8 +585,9 @@ body {
     position: relative;
     width: 16px;
     height: 2px;
-    background-color: #839496
+    background-color: #839496;
 }
+
 
 .header--nav-toggle::before {
     bottom: 5px;
@@ -794,6 +795,7 @@ body {
     background-color:#b58900;
     border: none;
     width: 120px;
+    transition: background-color 0.5s;
 }
 
 .intro--banner button .btn-background {
@@ -802,16 +804,16 @@ body {
     left: 0px;
     right: 0px;
     height: 100%;
-    background-color:#b58900;
+    /* background-color:#b58900; */
     z-index: -1;
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
 }
 
-.intro--banner button:hover .btn-background {
+.intro--banner button:hover{
     /* left: -1000px;
     right: -1400px; */
-    background-color: #b58900;
+    background-color: #fddb3a;
 }
 
 .intro--banner button:focus {
@@ -850,11 +852,12 @@ body {
     text-decoration: none;
     color: #dd322f;
     -webkit-transition: color .2s ease-in-out;
-    transition: color .2s ease-in-out
+    transition: color .4s ease-in-out, transform 0.5s;
 }
 
 .intro--options>a:hover {
-    color: #fdf6e3
+    color: #fdf6e3;
+    transform: scale(1.1);
 }
 
 .intro--options h3 {
@@ -1200,7 +1203,9 @@ body {
 }
 
 .about--banner a:hover svg {
-    left: 10px
+    left: 10px;
+    fill: #fff;
+    transform: scale(1.3);
 }
 
 .about--banner a svg {
@@ -1209,7 +1214,7 @@ body {
     width: 15px;
     fill: #dd322f;
     -webkit-transition: left .2s ease-in-out;
-    transition: left .2s ease-in-out
+    transition: left .5s ease-in-out, fill 0.5s, transform 0.5s;
 }
 
 .about--banner img {
@@ -1555,6 +1560,10 @@ body {
     cursor: pointer;
     -webkit-transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
     transition: background-color .2s ease-in-out, border-color .2s ease-in-out
+}
+
+.work-request--options label:hover{
+    border-color: #fff;
 }
 
 .work-request--options label svg {
@@ -1996,11 +2005,13 @@ img.blur:hover {
 }
 
 .share-btn.share-btn-branded {
-    color: #839496;
+    /* color: #839496; */
+    color: #002B36;
 }
 
 .share-btn.share-btn-branded.share-btn-twitter {
-    background: #00acee;
+
+    background: #1DA1F2;
     border-color: #90bada;
 }
 
@@ -2038,8 +2049,8 @@ img.blur:hover {
 }
 
 .share-btn.share-btn-branded.share-btn-email {
-    background: #db63531a;
-    color: #839496;
+    background: #D54B3D;
+    /* color: #839496; */
     border-color: #d73925;
 }
 
@@ -2061,15 +2072,15 @@ img.blur:hover {
 }
 
 .share-btn.share-btn-branded.share-btn-reddit {
-    background: #cc3700;
-    color: #839496;
+    background: #F74301;
+    /* color: #839496; */
     border-color: #f88257;
 }
 
 
 .share-btn.share-btn-branded.share-btn-linkedin {
     background: #075683;
-    color: #839496;
+    /* color: #839496; */
     border-color: #4589b1;
 }
 
